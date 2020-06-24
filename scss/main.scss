@@ -1,3 +1,5 @@
+
+
 $primary-color: #444;
 $secondary-color: #eece1a;
 $show-home-img: true;
@@ -30,7 +32,7 @@ $background-opacity: 0.9;
 
   }
 }
-
+@import 'menu';
 * {
   box-sizing: border-box;
 }
