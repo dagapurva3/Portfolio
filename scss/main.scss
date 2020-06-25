@@ -211,13 +211,13 @@ main {
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
+    @include easeOut; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
-      color: #000; }
+      background: $secondary-color;
+      color: set-text-color($secondary-color); }
       .boxes div:hover span {
-        color: #000; }
+        color: set-text-color($secondary-color); }
 
 .btn, .btn-dark, .btn-light {
   display: block;
